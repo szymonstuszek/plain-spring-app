@@ -7,7 +7,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 
 @Configuration
 @EnableWebMvc
-@ComponentScan("pl.devs.mentoring")
+@ComponentScan
 public class PlainSpringApp extends AbstractAnnotationConfigDispatcherServletInitializer {
 
 	@Override
